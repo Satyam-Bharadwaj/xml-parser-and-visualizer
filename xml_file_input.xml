@@ -1,0 +1,14 @@
+<student id=1>
+<name>Satyam Bharadwaj</name>
+<branch>CS</branch>
+<outer att="out" att1="anything">
+<inner att="in">test1</inner>
+</outer>
+</student>
+<student id=2>
+<name>RavindraPatil</name>
+<branch>IS</branch>
+<outer att="out" att1="anything">
+<inner att="in">test2</inner>
+</outer>
+</student>

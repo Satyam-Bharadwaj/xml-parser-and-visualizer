@@ -1,0 +1,11 @@
+{'parent': -1, 'name': 'root', 'data': '', 'children': [1, 6], 'attributes': {}, 'num': 0}
+{'parent': 'root', 'name': 'student', 'data': '', 'children': [('id', '1'), 2, 3, 4], 'attributes': [('id', '1')], 'num': 1}
+{'parent': 1, 'name': 'name', 'data': 'RavneetTaneja', 'children': ['RavneetTaneja'], 'attributes': [], 'num': 2}
+{'parent': 1, 'name': 'branch', 'data': 'CS', 'children': ['CS'], 'attributes': [], 'num': 3}
+{'parent': 1, 'name': 'outer', 'data': '', 'children': [('att', 'out'), ('att1', 'anything'), 5], 'attributes': [('att', 'out'), ('att1', 'anything')], 'num': 4}
+{'parent': 4, 'name': 'inner', 'data': 'test1', 'children': [('att', 'in'), 'test1'], 'attributes': [('att', 'in')], 'num': 5}
+{'parent': 'root', 'name': 'student', 'data': '', 'children': [('id', '2'), 7, 8, 9], 'attributes': [('id', '2')], 'num': 6}
+{'parent': 6, 'name': 'name', 'data': 'RavindraPatil', 'children': ['RavindraPatil'], 'attributes': [], 'num': 7}
+{'parent': 6, 'name': 'branch', 'data': 'IS', 'children': ['IS'], 'attributes': [], 'num': 8}
+{'parent': 6, 'name': 'outer', 'data': '', 'children': [('att', 'out'), ('att1', 'anything'), 10], 'attributes': [('att', 'out'), ('att1', 'anything')], 'num': 9}
+{'parent': 9, 'name': 'inner', 'data': 'test2', 'children': [('att', 'in'), 'test2'], 'attributes': [('att', 'in')], 'num': 10}

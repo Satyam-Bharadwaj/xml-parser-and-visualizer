@@ -1,0 +1,26 @@
+graph taxonomic_graph{
+ "1:student "--"1:id = 1" [style=dotted] 
+"root"--"1:student "
+"1:student "--"2:name "
+"2:name "-- "RavneetTaneja"
+"1:student "--"3:branch "
+"3:branch "-- "CS"
+"4:outer "--"4:att = out" [style=dotted] 
+"4:outer "--"4:att1 = anything" [style=dotted] 
+"1:student "--"4:outer "
+"5:inner "--"5:att = in" [style=dotted] 
+"4:outer "--"5:inner "
+"5:inner "-- "test1"
+"6:student "--"6:id = 2" [style=dotted] 
+"root"--"6:student "
+"6:student "--"7:name "
+"7:name "-- "RavindraPatil"
+"6:student "--"8:branch "
+"8:branch "-- "IS"
+"9:outer "--"9:att = out" [style=dotted] 
+"9:outer "--"9:att1 = anything" [style=dotted] 
+"6:student "--"9:outer "
+"10:inner "--"10:att = in" [style=dotted] 
+"9:outer "--"10:inner "
+"10:inner "-- "test2"
+}

@@ -1,0 +1,29 @@
+//root node
+documentElement.nodeName //root
+
+//element node
+root.firstChild.nodeName //student
+root.firstChild.nodeValue //null
+root.firstChild.nodeType //1
+
+//attribute node
+root.firstChild.firstChild.nodeName //id
+root.firstChild.firstChild.nodeValue //1
+root.firstChild.firstChild.nodeType //2
+
+//text node
+root.lastChild.firstChild.nextSibling.firstChild.nodeName // #text
+root.lastChild.firstChild.nextSibling.firstChild.nodeValue // RavindraPatil
+root.lastChild.firstChild.nextSibling.firstChild.nodeType // 3
+
+//last corner node in the tree
+root.lastChild.lastChild.lastChild.lastChild.nodeValue //test2
+
+//long query
+root.firstChild.lastChild.lastChild.previousSibling.previousSibling.nodeValue //out
+
+//erroneos queries
+firstChild.nodeValue
+root.lastChild.nextSibling.nodeName
+root.firstChild.previousSibling.nodeName
+
