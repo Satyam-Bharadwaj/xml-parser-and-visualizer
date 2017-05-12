@@ -12,4 +12,5 @@ Dependencies:<br>
 * bash shell
 <hr>
 Execution<br>
- Run this in terminal after pwd is set to project folder ```$bash run.sh ```
+ Run this in terminal after pwd is set to project folder 
+ > $bash run.sh 
