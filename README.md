@@ -1,4 +1,5 @@
-<h1>XML Parser and Document Element Tree Visualizer</h1>
+# XML Parser and Document Element Tree Visualizer [2016-2017] 
+This projet was done as a learning initiative for a course. 
 <hr>
 Features:<br>
 * Symbol Table <br>
